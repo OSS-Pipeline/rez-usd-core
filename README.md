@@ -1,3 +1,4 @@
-# rez-usd-core
+rez-usd-core
+===
 
-Rez build configuration for Pixar USD&#39;s core libraries and binaries.
+Rez build configuration for Pixar USD's core libraries and binaries.
