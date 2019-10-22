@@ -62,6 +62,7 @@ def commands():
     env.PATH.prepend("{root}/bin")
     env.LD_LIBRARY_PATH.prepend("{root}/lib")
     env.PYTHONPATH.prepend("{root}/lib/python")
+    env.CMAKE_MODULE_PATH.prepend("{root}")
 
     # Helper environment variables.
     env.USD_BINARY_PATH.set("{root}/bin")
